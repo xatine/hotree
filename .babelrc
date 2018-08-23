@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "babel-plugin-styled-components",
+    "@babel/plugin-transform-react-inline-elements",
+    "@babel/plugin-transform-react-constant-elements",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-optional-chaining",
+    [
+      "@babel/plugin-proposal-decorators",
+      { "legacy": true }
+    ]
+  ]
+}

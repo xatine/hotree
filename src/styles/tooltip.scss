@@ -1,0 +1,9 @@
+.tippy-tooltip {
+  background-color: var(--error);
+  border-radius: 2px;
+  margin-left: 4px;
+}
+
+.tippy-popper[x-placement^=right] [x-arrow] {
+  border-right: 7px solid var(--error);
+}
